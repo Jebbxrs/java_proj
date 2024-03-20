@@ -19,7 +19,7 @@ public class OvenHeatingTime{
         time = scan.nextInt();        
        
         if (items == 1)
-            time = time * 1;
+            time *= 1;
         if (items == 2)
             time = time * 150 / 100;
         if (items == 3)
